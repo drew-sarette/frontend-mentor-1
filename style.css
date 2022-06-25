@@ -5,17 +5,43 @@
    font-size: 15px;
 }
 /*small*/
+html {
+    height: 100%;
+}
 body {
+    height: 100%;
+    width: 100%;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 500px;
+    width: 300px;
+    border-radius: 20px;
+    padding: 1.2em;
+    background-color: white;
     display: flex;
     flex-direction: column;
-    padding: 1em;
+    justify-content: space-between;
 }
 
 img {
     border-radius: 10px;
 }
 
+h1 {
+    text-align: center;
+    font-size: 1.5em;
+    color: hsl(218, 44%, 22%);
+}
 
+.card > p {
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+}
 
 .attribution {
     display:none;
